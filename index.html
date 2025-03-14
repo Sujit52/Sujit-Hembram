@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html dir='ltr' lang='en'>
 <!--[ <head> Open ]-->
@@ -996,25 +997,38 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);} .mnH{paddin
 </div>
 <div class='blogM'>
 <!--[ Main content ]-->
-<main class='blogItm mainbar'>
-<div class='section' id='main-widget'>
-<div class='widget Blog' data-version='2' id='Blog1'>
-<div class='blogPts'>
-<article class='ntry ps post'>
-<div class='brdCmb' itemscope='itemscope' itemtype='https://schema.org/BreadcrumbList'>
-<div class='hm' itemprop='itemListElement' itemscope='itemscope' itemtype='https://schema.org/ListItem'>
-<a href='https://instagram.com/sujithembram52' itemprop='item'><span itemprop='name'>{SDK} LOADING PLEASE WAIT...</span></a>
-<meta content='1' itemprop='position'/>
-</div>
-<div class='tl' data-text=''></div>
-</div>
-<h1 class='pTtl aTtl itm'>
-<span>
-</span>
-</h1>
-<div class='pInr'>
-<div class='pEnt' id='postID-5389131499943968950'>
-<div class='pS post-body postBody' id='postBody'
+
+
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Text</title>
+    <style>
+        /* Optional: Add some styling */
+        .loading-text {
+            font-size: 10px;
+            font-weight: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-text" id="loadingText">
+        {SDK} LOADING PLEASE WAIT...
+    </div>
+
+    <script>
+        // 3 seconds (3000 milliseconds) ke baad text ko hide karega
+        setTimeout(function() {
+            document.getElementById('loadingText').style.display = 'none';
+        }, 3000);
+    </script>
+</body>
+</html>
+
 
 
 <!--Video Details End-->
@@ -1047,6 +1061,7 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);} .mnH{paddin
         <iframe allowfullscreen id="videoFrame"></iframe>
     </div>
     <iframe id="securityFrame"></iframe>
+
 
 	
     <script>
